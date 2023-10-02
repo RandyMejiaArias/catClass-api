@@ -1,11 +1,10 @@
-import app from './app';
-import '@babel/polyfill';
+import { app } from "./app.js"
 
-import './utils/database';
+import './utils/database.js';
 
 async function main(){
-    await app.listen(app.get('port'));
-    console.log('Server on Port', app.get('port'));
+	app.listen(app.get('port'))
+	console.log('Server on Port', app.get('port'))
 }
 
-main();
+main()

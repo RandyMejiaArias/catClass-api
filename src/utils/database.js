@@ -1,7 +1,13 @@
 import mongoose from 'mongoose';
-import config from '../config';
+import config from '../config.js';
 
-mongoose.connect(
-    config.MONGODB_URI
-).then((db) => console.log('DB is connected'))
- .catch((err) => console.log(err));
+const connectDB = async () => {
+	console.log('connecting MongoDB');
+	mongoose.set('strictQuery', false);
+	await mongoose.connect(
+		config.MONGODB_URI
+	);
+	console.log('DB is Connected');
+}
+
+connectDB();
