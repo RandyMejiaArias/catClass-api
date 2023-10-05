@@ -53,6 +53,20 @@ export const getResourcesByUser = async (req, res) => {
   }
 }
 
+export const getResourceById = async (req, res) => {
+  try {
+    const userId = req.userId;
+
+    const { resourceId } = req.params;
+    const resourceFound = await Resource.findById(resourceId);
+
+    return resourceFound ? res.status(200).json({ data: resourceFound }) : res.status(404).json({ message: 'Resource not found.' });
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({ message: error });
+  }
+}
+
 export const updateResourceById = async (req, res) => {
   try {
     const updatedResource = await Resource.findByIdAndUpdate(
