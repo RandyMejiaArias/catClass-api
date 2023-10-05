@@ -6,50 +6,71 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  [A deployed version can be viewed here.]()
+  <!-- [A deployed version can be viewed here.]() -->
   
 ---
-## Contents
+## Contenido
 
-1. [About](#about)
-    1. [User Story](#user%20story)
-    2. [Acceptance criteria](#acceptance%20criteria)
-    3. [Visuals](#visuals)
-    4. [Build](#build)
+1. [Acerca de](#about)
+    1. [Framework](#framework)
+    <!-- 2. [Historia de usuario](#user%20story)
+    3. [Criterios de aceptación](#acceptance%20criteria)
+    4. [Visuales](#visuals) -->
 2. [Installation](#installation)
-3. [License](#license)
-4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
+3. [Licencia](#license)
+4. [Autor](#authors%20and%20acknowledgment)
 
 ---
-## About
+## Acerca de
 
+### Framework
+
+Se ha decidido usar el stack MERN, que por sus siglas incluye MongoDb, Express, React, Node Js.
+Es un stack basado en Javascript, el cual usa una base de datos no relacional mediante MongoDb, un servidor de peticiones HTTP Express, para la parte del Frontend, se utiliza React para presentar una aplicación Web y Node Js como backend sobre el cual se montará el servidor.
+
+A breves rasgos, el sistema tendrá la siguiente estructura:
+
+![MERN Stack](https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img,w_943/https://www.bocasay.com/wp-content/uploads/2020/03/MERN-stack-1.png)
+
+Escalando a un nivel más bajo, el sistema sigue el siguiente esquema: 
+
+![Esquema del sistema](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes/mvc_express.png)
+
+El diagrama nos representa el flujo principal de los datos y partes que necesitamos implementar para manjear peticiones HTTP.<br>
+Base de datos y modelos, estos modelos son los que definen la estructura de los datos que vamos a utilizar.<br>
+Rutas, las cuales van a recibir las peticiones y transmitirlas al controlador correspondiente el cual se supone haga una función en específico.<br>
+Controladores, funciones que van a realizar procesos específicos, se encargaran de enviar y recibir los datos a los modelos y a su vez a las vistas.<br>
+Vistas, es donde se mostrarán los datos y será la interfaz que visualize el usuario. 
+
+---
+<!-- 
+### Historia de usuario - ¿Por qué se realiza el proyecto?
   
 
 ---
 
-## User Story
-  
-
----
-
-## Acceptance Criteria
+### Criterios de aceptación
   
   
 ---
-## Visuals:
+## Visuales
 
   ![]()
 
----
+--- -->
 
 ## Installation:
-  npm install
 
-  To clone the repo:
+1. Clonar el repositorio de Git
+
+  Para clonar el repositorio usar el comando:
   
       git clone https://github.com/RandyMejiaArias/catClass-api
+2. En la carpeta se creará un archivo llamado _`example.env`_, duplicarlo y cambiar su nombre a _`.env`_.
+3. Cambiar los valores de las variables para que se ajuste a su entorno.
+4. En una terminal dentro de la raíz del proyecto ejecutar el comando _`npm install`_ para instalar los paquetes.
+5. Para continuar con el desarrollo o realizar modificaciones ejecute _`npm run dev`_.
+6. El servidor se levantará automaticamente con cada cambio que se realice.
   
 ---
 
@@ -59,7 +80,7 @@
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
 
 ---
-
+<!-- 
 ## Contributing:
   
   To contribute to this application, create a pull request.
@@ -78,14 +99,14 @@
 ## Tests:
   
 
----
+--- -->
 
-## Authors and Acknowledgments
+## Autor
   Randy Mejia Arias
 
 ---
 
 ## Contact Information:
-* GitHub Username: randymejiaarias
-* GitHub Email: randy.mejia@udla.edu.ec
+* GitHub: randymejiaarias
+* Email: randy.mejia@udla.edu.ec
   
