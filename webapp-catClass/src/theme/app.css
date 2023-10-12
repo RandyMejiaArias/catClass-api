@@ -1,0 +1,15 @@
+.sidebar {
+  color: white;
+}
+
+.menu-logo {
+  margin-bottom: 60px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.menu-img {
+  margin-top: 1.5rem;
+  max-height: auto;
+  max-width: 140px;
+}
