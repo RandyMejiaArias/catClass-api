@@ -11,17 +11,17 @@
 ---
 ## Contenido
 
-1. [Acerca de](#about)
+1. [Acerca de](#acerca-de)
     1. [Framework](#framework)
     <!-- 2. [Historia de usuario](#user%20story) -->
-    2. [Criterios de aceptación](https://github.com/RandyMejiaArias/catClass-api/blob/142038b05b74b4854553e37017a2b6c07f43a8bc/readme.md#L55)
+    2. [Criterios de aceptación](#criterios-de-aceptación)
         
-        2.1. [Autenticación y Protección de Rutas](https://github.com/RandyMejiaArias/catClass-api/blob/142038b05b74b4854553e37017a2b6c07f43a8bc/readme.md#L56)
+        2.1. [Autenticacion y Rutas protegidas](#autenticación-y-rutas-protegidas)
 
     <!-- 4. [Visuales](#visuals) -->
-2. [Installation](#installation)
+2. [Instalación](#instalación)
 3. [Licencia](#license)
-4. [Autor](#authors%20and%20acknowledgment)
+4. [Autor](#autor)
 
 ---
 ## Acerca de
@@ -53,7 +53,7 @@ Vistas, es donde se mostrarán los datos y será la interfaz que visualize el us
 --- -->
 
 ### Criterios de aceptación
-#### Autentiicación y Rutas protegidas
+#### Autenticación y Rutas protegidas
 La aplicación debe contar con un sistema de autentificación y rutas protegidas para evitar que un usuario no autorizado tenga acceso a ella. Para esto es muy importante contar con un apartado para Iniciar Sesión.
 
 Diagrama de autenticación y rutas protegidas
@@ -70,7 +70,7 @@ En caso de no tener una sesión activa o no pasar el token, la aplicación no le
 
 --- -->
 
-## Installation:
+## Instalación:
 
 1. Clonar el repositorio de Git
 
@@ -117,7 +117,7 @@ En caso de no tener una sesión activa o no pasar el token, la aplicación no le
 
 ---
 
-## Contact Information:
+## Información de Contacto:
 * GitHub: randymejiaarias
 * Email: randy.mejia@udla.edu.ec
   
