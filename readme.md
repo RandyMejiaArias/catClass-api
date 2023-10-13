@@ -14,9 +14,9 @@
 1. [Acerca de](#about)
     1. [Framework](#framework)
     <!-- 2. [Historia de usuario](#user%20story) -->
-    2. [Criterios de aceptación](https://github.com/RandyMejiaArias/catClass-api/blob/18aff012d5ec97fe04766545dec47668b2e525bb/readme.md#L55)
+    2. [Criterios de aceptación](https://github.com/RandyMejiaArias/catClass-api/blob/142038b05b74b4854553e37017a2b6c07f43a8bc/readme.md#L55)
         
-        2.1. [Autenticación y Protección de Rutas](https://github.com/RandyMejiaArias/catClass-api/blob/18aff012d5ec97fe04766545dec47668b2e525bb/readme.md#L56)
+        2.1. [Autenticación y Protección de Rutas](https://github.com/RandyMejiaArias/catClass-api/blob/142038b05b74b4854553e37017a2b6c07f43a8bc/readme.md#L56)
 
     <!-- 4. [Visuales](#visuals) -->
 2. [Installation](#installation)
