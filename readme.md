@@ -13,9 +13,12 @@
 
 1. [Acerca de](#about)
     1. [Framework](#framework)
-    <!-- 2. [Historia de usuario](#user%20story)
-    3. [Criterios de aceptación](#acceptance%20criteria)
-    4. [Visuales](#visuals) -->
+    <!-- 2. [Historia de usuario](#user%20story) -->
+    2. [Criterios de aceptación](https://github.com/RandyMejiaArias/catClass-api/blob/18aff012d5ec97fe04766545dec47668b2e525bb/readme.md#L55)
+        
+        2.1. [Autenticación y Protección de Rutas](https://github.com/RandyMejiaArias/catClass-api/blob/18aff012d5ec97fe04766545dec47668b2e525bb/readme.md#L56)
+
+    <!-- 4. [Visuales](#visuals) -->
 2. [Installation](#installation)
 3. [Licencia](#license)
 4. [Autor](#authors%20and%20acknowledgment)
@@ -43,17 +46,25 @@ Controladores, funciones que van a realizar procesos específicos, se encargaran
 Vistas, es donde se mostrarán los datos y será la interfaz que visualize el usuario. 
 
 ---
-<!-- 
-### Historia de usuario - ¿Por qué se realiza el proyecto?
+
+<!-- ### Historia de usuario - ¿Por qué se realiza el proyecto?
   
 
----
+--- -->
 
 ### Criterios de aceptación
-  
+#### Autentiicación y Rutas protegidas
+La aplicación debe contar con un sistema de autentificación y rutas protegidas para evitar que un usuario no autorizado tenga acceso a ella. Para esto es muy importante contar con un apartado para Iniciar Sesión.
+
+Diagrama de autenticación y rutas protegidas
+![Diagrama de autenticación y rutas protegidas](https://danishshakeel.me/wp-content/uploads/2022/11/RouteGuard-768x365.png.webp)
+
+El diagrama muestra como esta armada la arquitectura del módulo de autenticación, la aplicación responde a las distintas peticiones del usuario pasando en primer lugar por un middleware de autenticación en el cuál se verifica que el usuario tenga una sesión activa en el sistema, esta verificación se realiza mediante el uso de un token, en dicho token se guarda información del token y el tiempo de sesión activa, si este token es vigente entonces la aplicación entiende que hay una sesión activa para el usuario que esta intentando realizar la petición y le deja pasar para culminar la acción que está solicitando. <br>
+En caso de no tener una sesión activa o no pasar el token, la aplicación no le dejara pasar y lo redireccionará a la pantalla de inicio de sesión.
+
   
 ---
-## Visuales
+<!-- ## Visuales
 
   ![]()
 
